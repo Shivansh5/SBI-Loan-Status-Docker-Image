@@ -86,7 +86,7 @@ def predict():
         LoanAmountlog = np.log(LoanAmount)
         Loan_Amount_Termlog = np.log(Loan_Amount_Term)
 
-        # We give data like X train data 
+        # We give data like X train data  
         prediction = model.predict([[credit, ApplicantIncomelog,LoanAmountlog,
          Loan_Amount_Termlog, totalincomelog, male, married_yes, dependents_1,
           dependents_2, dependents_3, not_graduate, employed_yes,semiurban, urban ]])
@@ -98,7 +98,7 @@ def predict():
         return render_template("prediction.html", prediction_text="💰 Loan status {}".format(prediction))
 
     else:
-        return render_template('prediction.html' )
+        return render_template('prediction.html  ' )
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
