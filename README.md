@@ -2,7 +2,7 @@
 # 🏦 SBI-Loan-Status-App-To-Docker-Image[GitOps] 🐋 
 
 # Overview ✍️  
-This is a simple Project In which we craete a docker image of Ml-Flask App and push on Docker-Hub 🐋 Repository using Github 😺 Action. Everytime we create an image with same name and Different Tag 🏷️.
+This is a simple Project In which we create a docker image of Ml-Flask App and push on Docker-Hub 🐋 Repository using Github 😺 Action. After some chages into Ml-Flask App Everytime we create an image with same name and Different Tag 🏷️ and push on Docker Hub .
 
 
 
